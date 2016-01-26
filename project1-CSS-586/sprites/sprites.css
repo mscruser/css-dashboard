@@ -1,0 +1,130 @@
+.analytics-green, .arrow-right, .car-icon, .check-icon, .check-mark, .customers-green, .dashboard-green, .fb-icon, .left-arrow, .light-bulb, .messages-green, .page-creator-green, .page-icon, .promotions-green, .question-in-circle, .search-blue, .settings-circle, .settings-grey, .small-man-head, .twitter-icon, .youtube-icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.analytics-green{
+	background-position: -301px -57px ;
+	width: 42px;
+	height: 50px;
+}
+
+.arrow-right{
+	background-position: -11px -200px ;
+	width: 22px;
+	height: 51px;
+}
+
+.car-icon{
+	background-position: -209px 0;
+	width: 30px;
+	height: 30px;
+}
+
+.check-icon{
+	background-position: -274px -155px ;
+	width: 16px;
+	height: 16px;
+}
+
+.check-mark{
+	background-position: -123px -144px ;
+	width: 27px;
+	height: 30px;
+}
+
+.customers-green{
+	background-position: -148px -62px ;
+	width: 62px;
+	height: 40px;
+}
+
+.dashboard-green{
+	background-position: -227px -54px ;
+	width: 58px;
+	height: 58px;
+}
+
+.fb-icon{
+	background-position: -326px -157px ;
+	width: 17px;
+	height: 16px;
+}
+
+.left-arrow{
+	background-position: -71px -198px ;
+	width: 23px;
+	height: 51px;
+}
+
+.light-bulb{
+	background-position: -178px -144px ;
+	width: 18px;
+	height: 32px;
+}
+
+.messages-green{
+	background-position: -68px -64px ;
+	width: 56px;
+	height: 46px;
+}
+
+.page-creator-green{
+	background-position: -7px -123px ;
+	width: 45px;
+	height: 50px;
+}
+
+.page-icon{
+	background-position: -73px -147px ;
+	width: 19px;
+	height: 32px;
+}
+
+.promotions-green{
+	background-position: -1px -60px ;
+	width: 50px;
+	height: 50px;
+}
+
+.question-in-circle{
+	background-position: 0 -8px ;
+	width: 27px;
+	height: 23px;
+}
+
+.search-blue{
+	background-position: -110px -6px ;
+	width: 23px;
+	height: 22px;
+}
+
+.settings-circle{
+	background-position: -54px -6px ;
+	width: 25px;
+	height: 25px;
+}
+
+.settings-grey{
+	background-position: -170px -211px ;
+	width: 24px;
+	height: 23px;
+}
+
+.small-man-head{
+	background-position: -157px -6px ;
+	width: 23px;
+	height: 20px;
+}
+
+.twitter-icon{
+	background-position: -222px -156px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube-icon{
+	background-position: -127px -212px ;
+	width: 16px;
+	height: 16px;
+}
+

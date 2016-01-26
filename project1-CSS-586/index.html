@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--this is how to link my personal css stylesheet.Put it here so it will override the bootstrap style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/my-styles.css">
+    <link rel="stylesheet" type="text/css" href="sprites/sprites.css"
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!--this is the start of the header-->
+    <div class= "container-fluid">
+      <!--this will be the very top bar-->
+        <div class="row">
+          <div class="col-sm-12" id= "top-panel">
+              <p id="mini">MINI of Raleigh
+                <img src="img/question-in-circle.png" alt="question-in-circle" id="question-in-circle">
+                <img src="img/settings-circle.png" alt="settings-circle">
+              </p>
+          </div>
+        </div>
+        <!--This will be the nav bar-->
+        <div class= "row stripes">
+          <div class="col-sm-3 hidden-xs nav"></div>
+          <div class= "col-xs-12 col-sm-6" id="main-nav">
+            <!--this hover code from http://stackoverflow.com/questions/18813299/changing-image-on-hover-with-css-html-->
+            <a href="#">
+              <img src='img/dashboard-green.png'  class= "nav-buttons" width="8%" onmouseover="this.src='img/dashboard-blue.png';" onmouseout="this.src='img/dashboard-green.png';"/>
+            </a>
+            <a href="#">
+                <img src='img/customers-green.png'  class= "nav-buttons" width="8%" onmouseover="this.src='img/customers-blue.png';" onmouseout="this.src='img/customers-green.png';"/>
+            </a>
+            <a href="#">
+                <img src='img/messages-green.png'  class= "nav-buttons" width="8%" onmouseover="this.src='img/messages-blue.png';" onmouseout="this.src='img/messages-green.png';"/>
+              </a>
+            <a href="#">
+                <img src='img/promotions-green.png'  class= "nav-buttons" width="8%" onmouseover="this.src='img/promotions-blue.png';" onmouseout="this.src='img/promotions-green.png';"/>
+            </a>
+            <a href="#">
+                <img src='img/page-creator-green.png'  class= "nav-buttons" width="8%" onmouseover="this.src='img/page-creator-blue.png';" onmouseout="this.src='img/page-creator-green.png';"/>
+            </a>
+            <a href="#">
+              <img src='img/analytics-green.png'  class= "last-nav-button" width="8%" onmouseover="this.src='img/analytics-blue.png';" onmouseout="this.src='img/analytics-green.png';"/>
+            </a>
+          </div>
+        <div class= "col-sm-3 hidden-xs nav"></div>
+      </div> <!--this is the end of the row-->
+    </div> <!--this is the end of the header and the fluid container-->
+
+
+    <!--this will be the Dashboard and everything else until the footer-->
+    <div class= "container">
+      <div class="row">
+        <div class="col-sm-9 col-xs-6" id= "dash">
+          <p class= "pull-left" id="dash-text"> Dashboard </p>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="col-sm-3 col-xs-6" id="dash2">
+            <!--the following line from Bootstrap forms2 in w3c tutorials-->
+            <input type="text" class="form-control search-dash" id="inputSuccess">
+            <img src="img/search-blue.png" id="search-blue" class="hidden-xs">
+        </div> <!--end of the search form in the dash tab-->
+      </div> <!--end of the row-->
+
+
+    <div class="border">
+    <div class="background-white">
+    <!--this will be the announcements bar-->
+      <div class="row announcements">
+            <div class="col-sm-2"  >
+              <p class="orange announce-text">ANNOUNCEMENTS</p>
+            </div>
+            <div class="col-sm-9 announce-body-text">
+              <p class="dark-grey"> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+            </div>
+            <div class="col-sm-1 announce-body-text">
+            <!--these two lines from http://bootsnipp.com/snippets/featured/circle-button-->
+            <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-chevron-left"></i></button>
+            <button type="button" class="btn btn-default btn-circle right-button"><i class="glyphicon glyphicon-chevron-right"></i></button>
+          </div>
+      </div> <!--end of the announcements row-->
+
+
+      <!--this will be the tasks and analytics area-->
+      <div class="row">
+        <div class="col-sm-4 col-xs-12 task-border">
+          <p class= "pull-left tasks">Tasks <span><img src="img/settings-grey.png"></span></p>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-xs-12 task-member">
+              <span class="text-wrap">
+              <a href="#">
+              <span class="tasks-number">1</span> <span class="tasks-text">Welcome Contacts</span> <span class="need-border"><img src="img/small-man-head.png"> 32 </span>
+              </a>
+            </span>
+              </div>
+
+
+            <div class="col-xs-12 task-member">
+              <span class="text-wrap">
+              <a href="#">
+                <span class="tasks-number">2</span> <span class="tasks-text">Provide Responses</span> <span class="need-border"><img src="img/small-man-head.png"> 36 </span>
+              </a>
+            </span>
+            </div>
+
+            <div class="col-xs-12 task-member">
+              <span class="text-wrap">
+              <a href="#">
+                <span class="tasks-number">  3</span> <span class="tasks-text">Review Activity</span> <span class="need-border"><img src="img/small-man-head.png"> 36 </span>
+              </a>
+            </span>
+            </div>
+
+            <div class="col-xs-12 task-member">
+              <span class="text-wrap">
+              <a href="#">
+                  <span class="tasks-number">  4</span> <span class="tasks-text">Reach Out</span> <span class="need-border"><img src="img/small-man-head.png"> 3 </span>
+                </a>
+              </span>
+                </div>
+          </div>
+
+          <!--<ul class="tasks-list">
+              <li><span class="blue">Welcome Contacts</span></li>
+              <li><span class="blue">Provide Responses</span></li>
+              <li><span class="blue">View Activity</span></li>
+              <li><span class="blue">Reach Out</span></li>
+          </ul>-->
+          <p class="tasks" id="recommendations">Recommendations</p>
+          <div class="row">
+            <div class="col-xs-12 rec">
+              <span class="text-wrap">
+              <a href="#">
+                <img src="img/page-icon.png"><p class="text-article"><span class="small">Article</span><br>7 steps to getting more fans</p>
+              </a>
+            </span>
+            </div>
+
+            <div class="col-xs-12 rec">
+              <span class="text-wrap">
+              <a href="#">
+                <img src="img/page-icon.png"><p class="text-article"><span class="small">Article</span><br> Increase traction with more interactions</p>
+              </a>
+            </span>
+            </div>
+
+            <div class="col-xs-12 rec">
+              <span class="text-wrap">
+              <a href="#">
+                <img src="img/check-mark.png"><p class="text-article"><span class="small">Checklist</span> <br> Creating a promotion</p>
+              </a>
+            </span>
+            </div>
+
+            <div class="col-xs-12 rec">
+              <span class="text-wrap">
+              <a href="#">
+                <img src="img/light-bulb.png"><p class="text-article"><span class="small">Tip </span><br> Share more</p>
+              </a>
+            </span>
+            </div>
+
+
+
+
+
+</div>
+  <!--  <ul class="dark-grey">
+      <li><span class="small">Article</span> <br> 7 steps to getting more fans</li>
+      <li><span class="small">Aricles</span><br> Increase traction with more interactions</li>
+      <li><span class="small">Checklist</span> <br> Creating a promotion</li>
+      <li><span class="small">Tip </span><br> Share more</li>
+    </ul>-->
+
+
+
+
+
+        </div>
+        <div class="col-sm-8 col-xs-12">
+          <p class= "float-left" id="analytics">Analytics</p>
+          <p class= "float-left" id="activity">Activity</p>
+
+
+        <div class="row">
+          <div class= "col-sm-9 col-xs-12">
+<!--this dropdown modified from Bootstrap website-->
+            <div class="dropdown pull-right">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                06/28/11 - 07/21/11
+                <span class="glyphicon glyphicon-chevron-down"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#"></a></li>
+                <li><a href="#">05/23/11 - 08/12/11</a></li>
+                <li><a href="#">03/30/11 - 09/12/11</a></li>
+                <li><a href="#">05/21/11 - 10/30/11</a></li>
+              </ul>
+          </div>
+
+            <!--<form action="action_page.php" class="pull-right drop-down">
+                <select name="dates">
+                  <option value="06/28/11 - 07/21/11">06/28/11 - 07/21/11</option>
+                  <option value="05/23/11 - 08/12/11">05/23/11 - 08/12/11</option>
+                  <option value="03/30/11 - 09/12/11">03/30/11 - 09/12/11</option>
+                  <option value="05/21/11 - 10/30/11">05/21/11 - 10/30/11</option>
+                </select>
+            </form>-->
+
+
+
+            <img src="img/analytics-graph.png" alt="analytics graph" width="100%" id="analytics-graph">
+
+
+</div>
+        <!--here is the start of the pie chart graphs-->
+        <div class="col-sm-3 hidden-xs channels-border">
+        <div class="graph1">
+          <p class="labels">CHANNELS</p>
+          <img src="img/channels-graph.png" alt="channels graph" width="90%">
+          <p class="labels" id="labels-referrals">REFERRALS</p>
+          <img src="img/referrals-graph.png" alt="referrals graph" width="90%">
+        </div>
+      </div>
+    </div>
+
+
+
+<!--maybe these need their own row-column setup-->
+
+      <div class="social-medias">
+
+            <form role="form">
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">
+                <div id="fb">Facebook</div>
+                  </label>
+                  <label class="checkbox-inline">
+                <input type="checkbox" value="">
+                <div id="twit">Twitter</div>
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">
+                <div id="foursquare">Foursquare</div>
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" value="">
+                <div id="google">Google+</div>
+              </label>
+            </form>
+
+  </div>
+
+
+<div class="row">
+    <div class="col-xs-6 outer-everything"> <!--hopefully this is the div that holds everything-->
+
+      <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height= "50px" width="20px">
+      <div class="contacts"> <!--this is the box-->
+
+            <div class="c-c">
+                <p>75 CONTACTS <br> 4 influencers</p>
+            </div>
+
+          <img src="img/ribbon-right.png" alt="ribbon-left" id="ribbon-right" height= "50px" width="20px">
+        </div>
+
+    </div>
+
+
+
+    <div class="col-xs-6 customers">
+      <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height= "50px" width="20px">
+        <div class="c-c">
+              <p>17 CUSTOMERS <br> 0 influencers </p>
+        </div>
+            <img src="img/ribbon-right.png" alt="ribbon-left" id="ribbon-right" height= "50px" width="20px">
+        </div>
+</div>
+
+
+  <div class= "row "> <!--"did you know"-->
+    <div class="col-xs-12">
+        <div class="the-hardest-one">
+          <a href="#">
+            <img src="img/left-arrow.png" alt="left-arrow" id= "left-arrow";> <!--left-arrow-->
+          </a>
+          <p class="dyk">DID YOU KNOW? <br> Maecenas sed diam eget risus varius blandit sit amet non <!--dyk-->
+              magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Etiam porta sem malesuada magna mollis euismod.</p>
+          <a href="#">
+              <img src="img/arrow-right.png" alt="right-arrow" id="right-arrow" class="pull-right"> <!--right-arrow-->
+          </a>
+        </div>
+  </div>
+  </div>
+
+
+</div> <!--end of anaylitics bar-->
+</div>
+
+
+
+      <!--this will be the advertisement area-->
+      <div class="row ads ">
+
+        <div class="col-sm-4 col-xs-12">
+          <!--<div> ad-div will give individual blue-->
+            <a href= "#" class="ad">
+                <img src="img/ad-1.png" alt="ad-1" class="ad-pic">
+            </a>
+        </div>
+
+        <div class="col-sm-4 col-xs-12">
+            <a href= "#" class="ad">
+              <img src="img/ad-2.png" alt="ad-2" class="ad-pic">
+            </a>
+        </div>
+
+        <div class="col-sm-4 col-xs-12">
+            <a href= "#" class="ad">
+              <img src="img/ad-3.png" alt="ad-3" class="ad-pic">
+            </a>
+          </div>
+        </div>
+    </div> <!--this is the end of the container-->
+
+  </div> <!--end of background-white-->
+  </div> <!--end of border div-->
+
+
+    <div class="container-fluid"> <!--this is the beginning of the footer-->
+      <div class="row footer">
+        <div class=" col-xs-3" id="footer-text">
+          <p class="pull-right"> Tutorials  Support  Blog </p>
+        </div>
+        <div class="col-xs-5" id="ariel-footer-text">
+          <p> <span class="blue">Ariel Winter</span> likes your <span class="blue">Win a Cooper Sweepstakes</span> Promotion </p>
+        </div>
+        <div class="col-xs-4" id="logout-footer-text">
+          <img class="pull-left car-icon car">
+          <p>Logout</p>
+        </div>
+      </div>
+    </div> <!--this is the end of the footer-->
+
+
+
+
+
+
+
+<!--set min and max heights to fix responsive errors.-->
+<!--next: .NEED-BORDER to figure out padding. ads. footer. contacts/customers. fix padding/border on edges so
+border doesnt act so weird. links on hover:grey. Top bar margins/borders. Grey settings margin -->
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+  </body>
+</html>
