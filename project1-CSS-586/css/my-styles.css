@@ -87,6 +87,9 @@
   border-width:1px;
 }
 
+.big{
+  font-size: 1.3em;/*110%;*/
+}
 .blue{
   color:#2394ee;
 }
@@ -128,12 +131,17 @@
 .c-c{
   background-color:#2394ee;
   display:inline-block;
-  margin-top:10%;
-  padding-top:5px; /*1%;*/
+  margin-top:20%;
+  padding-top:10px; /*1%;*/
   padding-bottom: 2px;/*.5%;*/
-  padding-right: 60px;/*9%;*/
-  padding-left: 60px; /*9%;*/
+  padding-right: 10%;/*9%;*/
+  padding-left: 10%; /*9%;*/
+  width:100%;
   color:white;
+  text-align:center;
+  line-height:95%;
+
+
 }
 
 .channels-border{
@@ -192,14 +200,15 @@ input[type=checkbox]:checked + label:before{
     line-height: 15px;
   }
 
-.contacts {
+.contacts {  /*the box*/
   -moz-box-shadow: 0 0 3px #ccc;/* box shadow found here: http://stackoverflow.com/questions/6821295/add-css-box-shadow-around-the-whole-div*/
   -webkit-box-shadow: 0 0 3px #ccc;
   box-shadow: 0 0 3px #ccc;
   border-radius:4px;
   margin-top:15px;
-  padding-left:15px;
-  height:100%;
+  width: 90%;
+  /*padding-left:15px;*/ /*this makes it so theres no L padding inside the box*/
+  /*height:100%;*/
 }
 
 .container{
@@ -339,6 +348,10 @@ input[type=checkbox]:checked + label:before{
 
 }
 
+#graph-green{
+  margin:5%;
+}
+
 .icon{
   /*margin-top:5%;*/
 }
@@ -443,8 +456,17 @@ font-size:80%;
 }
 
 #ribbon-left{
-  margin-right:-6px; /*-5.6%*/
+  float:left;
+
+  margin-top: 53px;
+  margin-left:-20px; /*-5.6%
   margin-top:-15px;   /*-2.3%*/
+
+
+}
+#ribbon-right{
+  float:right;
+  margin-top:-135px;
 }
 
 .search-dash{
