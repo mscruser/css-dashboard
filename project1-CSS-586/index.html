@@ -93,12 +93,15 @@
             <div class="col-sm-9 announce-body-text">
               <p class="dark-grey"> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
             </div>
-            <div class="col-sm-1 announce-body-text">
+            <div class="col-sm-1" id="announce-buttons">
             <!--these two lines from http://bootsnipp.com/snippets/featured/circle-button-->
             <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-chevron-left"></i></button>
             <button type="button" class="btn btn-default btn-circle right-button"><i class="glyphicon glyphicon-chevron-right"></i></button>
           </div>
       </div> <!--end of the announcements row-->
+
+
+
 
 
       <!--this will be the tasks and analytics area-->
@@ -200,7 +203,7 @@
 
 
         </div>
-        <div class="col-sm-8 col-xs-12">
+        <div class="col-sm-8 col-xs-12 long-border">
           <p class= "float-left" id="analytics">Analytics</p>
           <p class= "float-left" id="activity">Activity</p>
 
@@ -275,10 +278,14 @@
   </div>
 
 
-<div class="row">
-    <div class="col-xs-6 outer-everything"> <!--hopefully this is the div that holds everything-->
+<div class="row contacts-border">
+
+    <div class="col-sm-6 outer-everything"> <!--hopefully this is the div that holds everything-->
+
       <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height="45px" width=20px> <!--45, 20-->
+<!--<img src="img/green-man.png" alt="green-man" id=#green-man>-->
       <div class="contacts"> <!--this is the box-->
+
         <div class="c-c">
                 <p><span class="big">75 CONTACTS</span> <br><span class="small">4 INFLUENCERS</span></p>
         </div>
@@ -289,7 +296,7 @@
 
 
 
-    <div class="col-xs-6 outer-everything">
+    <div class="col-sm-6 outer-everything">
       <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height= "45px" width="20px">
         <div class="contacts"> <!--this is hopefully the box-->
 
@@ -306,7 +313,7 @@
 
 
   <div class= "row "> <!--"did you know"-->
-    <div class="col-xs-12">
+    <div class="col-xs-12 dyk-border">
         <div class="the-hardest-one">
           <a href="#">
             <img src="img/left-arrow.png" alt="left-arrow" id= "left-arrow";> <!--left-arrow-->
@@ -327,46 +334,60 @@
 
 
 
+
       <!--this will be the advertisement area-->
       <div class="row ads ">
 
         <div class="col-sm-4 col-xs-12">
           <!--<div> ad-div will give individual blue-->
-            <a href= "#" class="ad">
-                <img src="img/ad-1.png" alt="ad-1" class="ad-pic">
-            </a>
+
+            <div id="here-is-white1">
+              <a href= "#">
+                <img src="img/ad-1.png" alt="ad-1" class="ad-pic" width="90%">
+              </a>
+
+          </div>
         </div>
 
         <div class="col-sm-4 col-xs-12">
-            <a href= "#" class="ad">
-              <img src="img/ad-2.png" alt="ad-2" class="ad-pic">
-            </a>
-        </div>
-
-        <div class="col-sm-4 col-xs-12">
-            <a href= "#" class="ad">
-              <img src="img/ad-3.png" alt="ad-3" class="ad-pic">
+          <div id="here-is-white2">
+            <a href= "#">
+              <img src="img/ad-2.png" alt="ad-2" class="ad-pic ad-pic2" width="90%" height="50%">
             </a>
           </div>
         </div>
-    </div> <!--this is the end of the container-->
 
-  </div> <!--end of background-white-->
-  </div> <!--end of border div-->
+        <div class="col-sm-4 col-xs-12">
+          <div id= "here-is-white3">
+            <a href= "#">
+              <img src="img/ad-3.png" alt="ad-3" class="ad-pic" width="100%">
+            </a>
+          </div>
+          </div>
+        </div>
+      </div> <!--NEW NEW NEW NEW-->
+      </div> <!--NEW NEW NEW-->
+
+ </div>
 
 
     <div class="container-fluid"> <!--this is the beginning of the footer-->
       <div class="row footer">
-        <div class=" col-xs-3" id="footer-text">
+        <div class=" col-xs-4" id="footer-text">
           <p class="pull-right"> Tutorials  Support  Blog </p>
         </div>
         <div class="col-xs-5" id="ariel-footer-text">
           <p> <span class="blue">Ariel Winter</span> likes your <span class="blue">Win a Cooper Sweepstakes</span> Promotion </p>
         </div>
-        <div class="col-xs-4" id="logout-footer-text">
+        <div class="col-xs-3" id="logout-footer-text">
           <img class="pull-left car-icon car">
-          <p>Logout</p>
-        </div>
+          <span>Logout</span>
+          <img src="img/fb-icon.png">
+          <img src="img/twitter-icon.png">
+          <img src="img/check-icon.png">
+          <img src="img/youtube-icon.png">
+          </div>
+
       </div>
     </div> <!--this is the end of the footer-->
 
@@ -377,7 +398,7 @@
 
 
 <!--set min and max heights to fix responsive errors.-->
-<!--next: .NEED-BORDER to figure out padding. ads. footer. contacts/customers. fix padding/border on edges so
+<!--next: .NEED-BORDER to figure out padding.footer. fix padding/border on edges so
 border doesnt act so weird. links on hover:grey. Top bar margins/borders. Grey settings margin -->
 
 
