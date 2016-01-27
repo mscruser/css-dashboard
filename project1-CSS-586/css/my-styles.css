@@ -73,9 +73,14 @@
   border-right-width:1px;
 }
 
+a.footer-link:link{
+  color:grey;
+}
+
 a.footer-link:visited{
   color:grey;
 }
+
 
 
 a.grey-link:hover{
