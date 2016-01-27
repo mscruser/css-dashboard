@@ -31,10 +31,10 @@
       <!--this will be the very top bar-->
         <div class="row">
           <div class="col-sm-12" id= "top-panel">
-              <p id="mini">MINI of Raleigh
+              <p id="mini">MINI of Raleigh </p>
                 <img src="img/question-in-circle.png" alt="question-in-circle" id="question-in-circle">
-                <img src="img/settings-circle.png" alt="settings-circle">
-              </p>
+                <img src="img/settings-circle.png" alt="settings-circle" id="settings-circle">
+              </div>
           </div>
         </div>
         <!--This will be the nav bar-->
@@ -87,13 +87,13 @@
     <div class="background-white">
     <!--this will be the announcements bar-->
       <div class="row announcements">
-            <div class="col-sm-2"  >
+            <div class="col-lg-2"  >
               <p class="orange announce-text">ANNOUNCEMENTS</p>
             </div>
-            <div class="col-sm-9 announce-body-text">
+            <div class="col-lg-9 announce-body-text">
               <p class="dark-grey"> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
             </div>
-            <div class="col-sm-1" id="announce-buttons">
+            <div class="col-lg-1" id="announce-buttons">
             <!--these two lines from http://bootsnipp.com/snippets/featured/circle-button-->
             <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-chevron-left"></i></button>
             <button type="button" class="btn btn-default btn-circle right-button"><i class="glyphicon glyphicon-chevron-right"></i></button>
@@ -106,8 +106,8 @@
 
       <!--this will be the tasks and analytics area-->
       <div class="row">
-        <div class="col-sm-4 col-xs-12 task-border">
-          <p class= "pull-left tasks">Tasks <span><img src="img/settings-grey.png"></span></p>
+        <div class="col-lg-4 col-xs-12 task-border">
+          <p class= "pull-left tasks">Tasks <span id="settings-grey"><img src="img/settings-grey.png"></span></p>
           <br>
           <br>
           <br>
@@ -115,7 +115,7 @@
             <div class="col-xs-12 task-member">
               <span class="text-wrap">
               <a href="#">
-              <span class="tasks-number">1</span> <span class="tasks-text">Welcome Contacts</span> <span class="need-border"><img src="img/small-man-head.png"> 32 </span>
+              <span class="tasks-number">1</span> <span class="tasks-text">Welcome Contacts</span> <span class="need-border border1"><img src="img/small-man-head.png"> 32 </span>
               </a>
             </span>
               </div>
@@ -124,7 +124,7 @@
             <div class="col-xs-12 task-member">
               <span class="text-wrap">
               <a href="#">
-                <span class="tasks-number">2</span> <span class="tasks-text">Provide Responses</span> <span class="need-border"><img src="img/small-man-head.png"> 36 </span>
+                <span class="tasks-number">2</span> <span class="tasks-text">Provide Responses</span> <span class="need-border border2"><img src="img/small-man-head.png"> 36 </span>
               </a>
             </span>
             </div>
@@ -132,7 +132,7 @@
             <div class="col-xs-12 task-member">
               <span class="text-wrap">
               <a href="#">
-                <span class="tasks-number">  3</span> <span class="tasks-text">Review Activity</span> <span class="need-border"><img src="img/small-man-head.png"> 36 </span>
+                <span class="tasks-number">  3</span> <span class="tasks-text">Review Activity</span> <span class="need-border border3"><img src="img/small-man-head.png"> 36 </span>
               </a>
             </span>
             </div>
@@ -140,7 +140,7 @@
             <div class="col-xs-12 task-member">
               <span class="text-wrap">
               <a href="#">
-                  <span class="tasks-number">  4</span> <span class="tasks-text">Reach Out</span> <span class="need-border"><img src="img/small-man-head.png"> 3 </span>
+                  <span class="tasks-number">  4</span> <span class="tasks-text">Reach Out</span> <span class="need-border border4"><img src="img/small-man-head.png"> 3 </span>
                 </a>
               </span>
                 </div>
@@ -157,7 +157,8 @@
             <div class="col-xs-12 rec">
               <span class="text-wrap">
               <a href="#">
-                <img src="img/page-icon.png"><p class="text-article"><span class="small">Article</span><br>7 steps to getting more fans</p>
+                <img src="img/page-icon.png" class="abs-icon">
+                <p class="text-article"><span class="small">Article</span><br>7 steps to getting more fans</p>
               </a>
             </span>
             </div>
@@ -280,34 +281,38 @@
 
 <div class="row contacts-border">
 
-    <div class="col-sm-6 outer-everything"> <!--hopefully this is the div that holds everything-->
+    <div class="col-sm-12 col-md-12 col-lg-6 outer-everything"> <!--hopefully this is the div that holds everything-->
 
-      <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height="45px" width=20px> <!--45, 20-->
-<!--<img src="img/green-man.png" alt="green-man" id=#green-man>-->
+
+
       <div class="contacts"> <!--this is the box-->
-
+        <img src="img/green-man.png" alt="green-man" id=green-man>
+        <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height="45px" width=20px> <!--45, 20-->
         <div class="c-c">
                 <p><span class="big">75 CONTACTS</span> <br><span class="small">4 INFLUENCERS</span></p>
         </div>
         <img src="img/graph-green.png" width="90%" height="50%" id="graph-green">
+<img src="img/ribbon-right.png" alt="ribbon-left" id="ribbon-right" height= "45px" width="20px">
       </div>
-        <img src="img/ribbon-right.png" alt="ribbon-left" id="ribbon-right" height= "45px" width="20px">
+
     </div>
 
 
 
-    <div class="col-sm-6 outer-everything">
-      <img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height= "45px" width="20px">
-        <div class="contacts"> <!--this is hopefully the box-->
+    <div class="col-sm-12 col-md-12 col-lg-6 outer-everything">
 
+        <div class="contacts"> <!--this is hopefully the box-->
+<img src="img/orange-man.png" alt="orange-man" id=green-man>
+<img src="img/ribbon-left.png" alt="ribbon-left" id="ribbon-left" height= "45px" width="20px">
           <div class="c-c">
               <p><span class="big">17 CUSTOMERS</span> <br> <span class="small">0 INFLUENCES</span> </p>
 
           </div>
 
           <img src="img/graph-orange.png" width="90%" height="50%" id="graph-green">
+<img src="img/ribbon-right.png" alt="ribbon-left" id="ribbon-right" height= "45px" width="20px">
         </div>
-            <img src="img/ribbon-right.png" alt="ribbon-left" id="ribbon-right" height= "45px" width="20px">
+
         </div>
 </div>
 
@@ -318,8 +323,8 @@
           <a href="#">
             <img src="img/left-arrow.png" alt="left-arrow" id= "left-arrow";> <!--left-arrow-->
           </a>
-          <p class="dyk">DID YOU KNOW? <br> Maecenas sed diam eget risus varius blandit sit amet non <!--dyk-->
-              magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p class="dyk">DID YOU KNOW? <br> Maecenas sed diam eget risus varius blandit sit amet non
+              magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Etiam porta sem malesuada magna mollis euismod.</p>
           <a href="#">
               <img src="img/arrow-right.png" alt="right-arrow" id="right-arrow" class="pull-right"> <!--right-arrow-->
@@ -397,9 +402,8 @@
 
 
 
-<!--set min and max heights to fix responsive errors.-->
-<!--next: .NEED-BORDER to figure out padding.footer. fix padding/border on edges so
-border doesnt act so weird. links on hover:grey. Top bar margins/borders. Grey settings margin -->
+
+<!--next: footer. links on hover:grey. Top bar margins/borders. Traingle. checkboxes-->
 
 
 
